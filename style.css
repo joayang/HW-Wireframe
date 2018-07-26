@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+ .clearfix::after{
+    clear:both;
+    content:"";
+    display: block;
+  } 
+  body{
+      background-color: gray;
+      border-top: 80px;
+      border-block-end: 80px;
+      margin-block-start: 80px;
+      margin: 0;
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 10px;
+  }
+.header,.nav,.footer {
+    padding: 40px;
+    background-color: rgba(236, 234, 234);
+    margin-bottom: 10px;
+}
+/* .nav {
+    padding: 40px;
+    background-color: rgb(236, 234, 234);
+    margin: 20px 120px;
+}
+.section{
+    height: 80px;
+    background-color: #ccc;
+    padding: 20px;
+    width: 40%;
+    margin-right: 10px; 
+}*/
+.leftright{
+    background-color: rgb(236, 234, 234);
+    /* width: 40%; */
+    width: 60%;
+    height: 250px;
+    /* margin-left: 120px; */
+    float: left;
+    /* float:left; */
+    padding-top: 24px;
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
+.article{
+    background-color: #666;
+    width: 560px;
+   padding: 20px 0;
+    margin: auto;
+    margin-top: 17px;
+}
+#left{
+    background-color: rgb(236, 234, 234);
+    width:510px;
+    /* height: 50px; */
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+}
+#right{
+    background-color: rgb(236, 234, 234);
+    width: 510px;
+    height: 50px;
+    margin: auto;
+    margin-top:10px;
+    padding-top: 10px;
+}
+.aside1{
+    background-color: rgb(236, 234, 234);
+    width:39%;
+    float: left;
+    padding: 115px;
+}
